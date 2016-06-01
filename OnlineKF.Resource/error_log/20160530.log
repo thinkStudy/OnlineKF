@@ -1,0 +1,405 @@
+Fields           :Value
+
+===========================================
+DateTime         : 2016-05-30 10:06:03
+HttpReferrer     : http://localhost:5329/UI/UploadFile.html
+
+HttpPathAndQuery : /HttpApi/EditUpFile/FileUpLoader.ashx
+Message          : 超过了最大请求长度。
+StackTrace       : 在 System.Web.HttpRequest.GetEntireRawContent()
+                   在 System.Web.HttpRequest.GetMultipartContent()
+                   在 System.Web.HttpRequest.FillInFormCollection()
+                   在 System.Web.HttpRequest.FillInFormCollection()
+                   在 System.Web.HttpRequest.EnsureForm()
+                   在 System.Web.HttpRequest.get_Form()
+                   在 System.Web.HttpRequest.get_Item(String key)
+                   在 imageUp.ProcessRequest(HttpContext context) 位置 d:\ItemCode\ItemOnlineKF\OnlineKF\OnlineKF.Resource\HttpApi\EditUpFile\FileUpLoader.ashx:行号 22
+
+===========================================
+DateTime         : 2016-05-30 10:06:44
+HttpReferrer     : http://localhost:5329/UI/UploadFile.html
+
+HttpPathAndQuery : /HttpApi/EditUpFile/FileUpLoader.ashx
+Message          : 超过了最大请求长度。
+StackTrace       : 在 System.Web.HttpRequest.GetEntireRawContent()
+                   在 System.Web.HttpRequest.GetMultipartContent()
+                   在 System.Web.HttpRequest.FillInFormCollection()
+                   在 System.Web.HttpRequest.FillInFormCollection()
+                   在 System.Web.HttpRequest.EnsureForm()
+                   在 System.Web.HttpRequest.get_Form()
+                   在 System.Web.HttpRequest.get_Item(String key)
+                   在 imageUp.ProcessRequest(HttpContext context) 位置 d:\ItemCode\ItemOnlineKF\OnlineKF\OnlineKF.Resource\HttpApi\EditUpFile\FileUpLoader.ashx:行号 22
+
+===========================================
+DateTime         : 2016-05-30 10:31:45
+HttpReferrer     : http://localhost:5329/UI/UploadFile.html
+
+HttpPathAndQuery : /HttpApi/EditUpFile/FileUpLoader.ashx?toUrl=http://localhost:5329/UI/UpLoadDone.htm&fileId=3&callBack=parent.upLoadDone
+Message          : 超过了最大请求长度。
+StackTrace       : 在 System.Web.HttpRequest.GetEntireRawContent()
+                   在 System.Web.HttpRequest.GetMultipartContent()
+                   在 System.Web.HttpRequest.FillInFilesCollection()
+                   在 System.Web.HttpRequest.FillInFilesCollection()
+                   在 System.Web.HttpRequest.EnsureFiles()
+                   在 System.Web.HttpRequest.get_Files()
+                   在 OnlineKF.Resource.Uploader.upFile(HttpContext cxt, String pathbase, Int32 size) 位置 D:\ItemCode\ItemOnlineKF\OnlineKF\OnlineKF.Resource\HttpApi\EditUpFile\Uploader.cs:行号 56
+
+===========================================
+DateTime         : 2016-05-30 10:31:45
+HttpReferrer     : http://localhost:5329/UI/UploadFile.html
+
+HttpPathAndQuery : /HttpApi/EditUpFile/FileUpLoader.ashx?toUrl=http://localhost:5329/UI/UpLoadDone.htm&fileId=3&callBack=parent.upLoadDone
+Message          : 未将对象引用设置到对象的实例。
+StackTrace       : 在 OnlineKF.Resource.Uploader.getUploadInfo() 位置 D:\ItemCode\ItemOnlineKF\OnlineKF\OnlineKF.Resource\HttpApi\EditUpFile\Uploader.cs:行号 172
+
+===========================================
+DateTime         : 2016-05-30 10:31:45
+HttpReferrer     : http://localhost:5329/UI/UploadFile.html
+
+HttpPathAndQuery : /HttpApi/EditUpFile/FileUpLoader.ashx?toUrl=http://localhost:5329/UI/UpLoadDone.htm&fileId=3&callBack=parent.upLoadDone
+Message          : 已添加项。字典中的关键字:“name”所添加的关键字:“name”
+StackTrace       : 在 System.Collections.Hashtable.Insert(Object key, Object nvalue, Boolean add)
+                   在 System.Collections.Hashtable.Add(Object key, Object value)
+                   在 OnlineKF.Resource.Uploader.getUploadInfo() 位置 D:\ItemCode\ItemOnlineKF\OnlineKF\OnlineKF.Resource\HttpApi\EditUpFile\Uploader.cs:行号 178
+                   在 OnlineKF.Resource.Uploader.upFile(HttpContext cxt, String pathbase, Int32 size) 位置 D:\ItemCode\ItemOnlineKF\OnlineKF\OnlineKF.Resource\HttpApi\EditUpFile\Uploader.cs:行号 90
+                   在 imageUp.ProcessRequest(HttpContext context) 位置 d:\ItemCode\ItemOnlineKF\OnlineKF\OnlineKF.Resource\HttpApi\EditUpFile\FileUpLoader.ashx:行号 32
+
+===========================================
+DateTime         : 2016-05-30 10:31:45
+HttpReferrer     : http://localhost:5329/UI/UploadFile.html
+
+HttpPathAndQuery : /HttpApi/EditUpFile/FileUpLoader.ashx?toUrl=http://localhost:5329/UI/UpLoadDone.htm&fileId=3&callBack=parent.upLoadDone
+Message          : 超过了最大请求长度。
+StackTrace       : 在 System.Web.HttpRequest.GetEntireRawContent()
+                   在 System.Web.HttpRequest.GetMultipartContent()
+                   在 System.Web.HttpRequest.FillInFilesCollection()
+                   在 System.Web.HttpRequest.FillInFilesCollection()
+                   在 System.Web.HttpRequest.EnsureFiles()
+                   在 System.Web.HttpRequest.get_Files()
+                   在 OnlineKF.Resource.Uploader.upFile(HttpContext cxt, String pathbase, Int32 size) 位置 D:\ItemCode\ItemOnlineKF\OnlineKF\OnlineKF.Resource\HttpApi\EditUpFile\Uploader.cs:行号 56
+
+===========================================
+DateTime         : 2016-05-30 10:31:45
+HttpReferrer     : http://localhost:5329/UI/UploadFile.html
+
+HttpPathAndQuery : /HttpApi/EditUpFile/FileUpLoader.ashx?toUrl=http://localhost:5329/UI/UpLoadDone.htm&fileId=3&callBack=parent.upLoadDone
+Message          : 未将对象引用设置到对象的实例。
+StackTrace       : 在 OnlineKF.Resource.Uploader.getUploadInfo() 位置 D:\ItemCode\ItemOnlineKF\OnlineKF\OnlineKF.Resource\HttpApi\EditUpFile\Uploader.cs:行号 172
+
+===========================================
+DateTime         : 2016-05-30 10:31:45
+HttpReferrer     : http://localhost:5329/UI/UploadFile.html
+
+HttpPathAndQuery : /HttpApi/EditUpFile/FileUpLoader.ashx?toUrl=http://localhost:5329/UI/UpLoadDone.htm&fileId=3&callBack=parent.upLoadDone
+Message          : 已添加项。字典中的关键字:“name”所添加的关键字:“name”
+StackTrace       : 在 System.Collections.Hashtable.Insert(Object key, Object nvalue, Boolean add)
+                   在 System.Collections.Hashtable.Add(Object key, Object value)
+                   在 OnlineKF.Resource.Uploader.getUploadInfo() 位置 D:\ItemCode\ItemOnlineKF\OnlineKF\OnlineKF.Resource\HttpApi\EditUpFile\Uploader.cs:行号 178
+                   在 OnlineKF.Resource.Uploader.upFile(HttpContext cxt, String pathbase, Int32 size) 位置 D:\ItemCode\ItemOnlineKF\OnlineKF\OnlineKF.Resource\HttpApi\EditUpFile\Uploader.cs:行号 90
+                   在 imageUp.ProcessRequest(HttpContext context) 位置 d:\ItemCode\ItemOnlineKF\OnlineKF\OnlineKF.Resource\HttpApi\EditUpFile\FileUpLoader.ashx:行号 32
+
+===========================================
+DateTime         : 2016-05-30 10:31:45
+HttpReferrer     : http://localhost:5329/UI/UploadFile.html
+
+HttpPathAndQuery : /HttpApi/EditUpFile/FileUpLoader.ashx?toUrl=http://localhost:5329/UI/UpLoadDone.htm&fileId=3&callBack=parent.upLoadDone
+Message          : 超过了最大请求长度。
+StackTrace       : 在 System.Web.HttpRequest.GetEntireRawContent()
+                   在 System.Web.HttpRequest.GetMultipartContent()
+                   在 System.Web.HttpRequest.FillInFilesCollection()
+                   在 System.Web.HttpRequest.FillInFilesCollection()
+                   在 System.Web.HttpRequest.EnsureFiles()
+                   在 System.Web.HttpRequest.get_Files()
+                   在 OnlineKF.Resource.Uploader.upFile(HttpContext cxt, String pathbase, Int32 size) 位置 D:\ItemCode\ItemOnlineKF\OnlineKF\OnlineKF.Resource\HttpApi\EditUpFile\Uploader.cs:行号 56
+
+===========================================
+DateTime         : 2016-05-30 10:31:45
+HttpReferrer     : http://localhost:5329/UI/UploadFile.html
+
+HttpPathAndQuery : /HttpApi/EditUpFile/FileUpLoader.ashx?toUrl=http://localhost:5329/UI/UpLoadDone.htm&fileId=3&callBack=parent.upLoadDone
+Message          : 未将对象引用设置到对象的实例。
+StackTrace       : 在 OnlineKF.Resource.Uploader.getUploadInfo() 位置 D:\ItemCode\ItemOnlineKF\OnlineKF\OnlineKF.Resource\HttpApi\EditUpFile\Uploader.cs:行号 172
+
+===========================================
+DateTime         : 2016-05-30 10:31:45
+HttpReferrer     : http://localhost:5329/UI/UploadFile.html
+
+HttpPathAndQuery : /HttpApi/EditUpFile/FileUpLoader.ashx?toUrl=http://localhost:5329/UI/UpLoadDone.htm&fileId=3&callBack=parent.upLoadDone
+Message          : 已添加项。字典中的关键字:“name”所添加的关键字:“name”
+StackTrace       : 在 System.Collections.Hashtable.Insert(Object key, Object nvalue, Boolean add)
+                   在 System.Collections.Hashtable.Add(Object key, Object value)
+                   在 OnlineKF.Resource.Uploader.getUploadInfo() 位置 D:\ItemCode\ItemOnlineKF\OnlineKF\OnlineKF.Resource\HttpApi\EditUpFile\Uploader.cs:行号 178
+                   在 OnlineKF.Resource.Uploader.upFile(HttpContext cxt, String pathbase, Int32 size) 位置 D:\ItemCode\ItemOnlineKF\OnlineKF\OnlineKF.Resource\HttpApi\EditUpFile\Uploader.cs:行号 90
+                   在 imageUp.ProcessRequest(HttpContext context) 位置 d:\ItemCode\ItemOnlineKF\OnlineKF\OnlineKF.Resource\HttpApi\EditUpFile\FileUpLoader.ashx:行号 32
+
+===========================================
+DateTime         : 2016-05-30 10:33:20
+HttpReferrer     : http://localhost:5329/UI/UploadFile.html
+
+HttpPathAndQuery : /HttpApi/EditUpFile/FileUpLoader.ashx?toUrl=http://localhost:5329/UI/UpLoadDone.htm&fileId=4&callBack=parent.upLoadDone
+Message          : 超过了最大请求长度。
+StackTrace       : 在 System.Web.HttpRequest.GetEntireRawContent()
+                   在 System.Web.HttpRequest.GetMultipartContent()
+                   在 System.Web.HttpRequest.FillInFilesCollection()
+                   在 System.Web.HttpRequest.FillInFilesCollection()
+                   在 System.Web.HttpRequest.EnsureFiles()
+                   在 System.Web.HttpRequest.get_Files()
+                   在 OnlineKF.Resource.Uploader.upFile(HttpContext cxt, String pathbase, Int32 size) 位置 D:\ItemCode\ItemOnlineKF\OnlineKF\OnlineKF.Resource\HttpApi\EditUpFile\Uploader.cs:行号 56
+
+===========================================
+DateTime         : 2016-05-30 10:33:22
+HttpReferrer     : http://localhost:5329/UI/UploadFile.html
+
+HttpPathAndQuery : /HttpApi/EditUpFile/FileUpLoader.ashx?toUrl=http://localhost:5329/UI/UpLoadDone.htm&fileId=4&callBack=parent.upLoadDone
+Message          : 未将对象引用设置到对象的实例。
+StackTrace       : 在 OnlineKF.Resource.Uploader.getUploadInfo() 位置 D:\ItemCode\ItemOnlineKF\OnlineKF\OnlineKF.Resource\HttpApi\EditUpFile\Uploader.cs:行号 172
+
+===========================================
+DateTime         : 2016-05-30 10:33:41
+HttpReferrer     : http://localhost:5329/UI/UploadFile.html
+
+HttpPathAndQuery : /HttpApi/EditUpFile/FileUpLoader.ashx?toUrl=http://localhost:5329/UI/UpLoadDone.htm&fileId=4&callBack=parent.upLoadDone
+Message          : 已添加项。字典中的关键字:“name”所添加的关键字:“name”
+StackTrace       : 在 System.Collections.Hashtable.Insert(Object key, Object nvalue, Boolean add)
+                   在 System.Collections.Hashtable.Add(Object key, Object value)
+                   在 OnlineKF.Resource.Uploader.getUploadInfo() 位置 D:\ItemCode\ItemOnlineKF\OnlineKF\OnlineKF.Resource\HttpApi\EditUpFile\Uploader.cs:行号 178
+                   在 OnlineKF.Resource.Uploader.upFile(HttpContext cxt, String pathbase, Int32 size) 位置 D:\ItemCode\ItemOnlineKF\OnlineKF\OnlineKF.Resource\HttpApi\EditUpFile\Uploader.cs:行号 90
+                   在 imageUp.ProcessRequest(HttpContext context) 位置 d:\ItemCode\ItemOnlineKF\OnlineKF\OnlineKF.Resource\HttpApi\EditUpFile\FileUpLoader.ashx:行号 32
+
+===========================================
+DateTime         : 2016-05-30 10:34:08
+HttpReferrer     : http://localhost:5329/UI/UploadFile.html
+
+HttpPathAndQuery : /HttpApi/EditUpFile/FileUpLoader.ashx?toUrl=http://localhost:5329/UI/UpLoadDone.htm&fileId=4&callBack=parent.upLoadDone
+Message          : 超过了最大请求长度。
+StackTrace       : 在 System.Web.HttpRequest.GetEntireRawContent()
+                   在 System.Web.HttpRequest.GetMultipartContent()
+                   在 System.Web.HttpRequest.FillInFilesCollection()
+                   在 System.Web.HttpRequest.FillInFilesCollection()
+                   在 System.Web.HttpRequest.EnsureFiles()
+                   在 System.Web.HttpRequest.get_Files()
+                   在 OnlineKF.Resource.Uploader.upFile(HttpContext cxt, String pathbase, Int32 size) 位置 D:\ItemCode\ItemOnlineKF\OnlineKF\OnlineKF.Resource\HttpApi\EditUpFile\Uploader.cs:行号 56
+
+===========================================
+DateTime         : 2016-05-30 10:34:10
+HttpReferrer     : http://localhost:5329/UI/UploadFile.html
+
+HttpPathAndQuery : /HttpApi/EditUpFile/FileUpLoader.ashx?toUrl=http://localhost:5329/UI/UpLoadDone.htm&fileId=4&callBack=parent.upLoadDone
+Message          : 未将对象引用设置到对象的实例。
+StackTrace       : 在 OnlineKF.Resource.Uploader.getUploadInfo() 位置 D:\ItemCode\ItemOnlineKF\OnlineKF\OnlineKF.Resource\HttpApi\EditUpFile\Uploader.cs:行号 172
+
+===========================================
+DateTime         : 2016-05-30 10:34:12
+HttpReferrer     : http://localhost:5329/UI/UploadFile.html
+
+HttpPathAndQuery : /HttpApi/EditUpFile/FileUpLoader.ashx?toUrl=http://localhost:5329/UI/UpLoadDone.htm&fileId=4&callBack=parent.upLoadDone
+Message          : 已添加项。字典中的关键字:“name”所添加的关键字:“name”
+StackTrace       : 在 System.Collections.Hashtable.Insert(Object key, Object nvalue, Boolean add)
+                   在 System.Collections.Hashtable.Add(Object key, Object value)
+                   在 OnlineKF.Resource.Uploader.getUploadInfo() 位置 D:\ItemCode\ItemOnlineKF\OnlineKF\OnlineKF.Resource\HttpApi\EditUpFile\Uploader.cs:行号 178
+                   在 OnlineKF.Resource.Uploader.upFile(HttpContext cxt, String pathbase, Int32 size) 位置 D:\ItemCode\ItemOnlineKF\OnlineKF\OnlineKF.Resource\HttpApi\EditUpFile\Uploader.cs:行号 90
+                   在 imageUp.ProcessRequest(HttpContext context) 位置 d:\ItemCode\ItemOnlineKF\OnlineKF\OnlineKF.Resource\HttpApi\EditUpFile\FileUpLoader.ashx:行号 32
+
+===========================================
+DateTime         : 2016-05-30 10:34:42
+HttpReferrer     : http://localhost:5329/UI/UploadFile.html
+
+HttpPathAndQuery : /HttpApi/EditUpFile/FileUpLoader.ashx?toUrl=http://localhost:5329/UI/UpLoadDone.htm&fileId=5&callBack=parent.upLoadDone
+Message          : 超过了最大请求长度。
+StackTrace       : 在 System.Web.HttpRequest.GetEntireRawContent()
+                   在 System.Web.HttpRequest.GetMultipartContent()
+                   在 System.Web.HttpRequest.FillInFilesCollection()
+                   在 System.Web.HttpRequest.FillInFilesCollection()
+                   在 System.Web.HttpRequest.EnsureFiles()
+                   在 System.Web.HttpRequest.get_Files()
+                   在 OnlineKF.Resource.Uploader.upFile(HttpContext cxt, String pathbase, Int32 size) 位置 D:\ItemCode\ItemOnlineKF\OnlineKF\OnlineKF.Resource\HttpApi\EditUpFile\Uploader.cs:行号 56
+
+===========================================
+DateTime         : 2016-05-30 10:34:42
+HttpReferrer     : http://localhost:5329/UI/UploadFile.html
+
+HttpPathAndQuery : /HttpApi/EditUpFile/FileUpLoader.ashx?toUrl=http://localhost:5329/UI/UpLoadDone.htm&fileId=5&callBack=parent.upLoadDone
+Message          : 未将对象引用设置到对象的实例。
+StackTrace       : 在 OnlineKF.Resource.Uploader.getUploadInfo() 位置 D:\ItemCode\ItemOnlineKF\OnlineKF\OnlineKF.Resource\HttpApi\EditUpFile\Uploader.cs:行号 172
+
+===========================================
+DateTime         : 2016-05-30 10:34:42
+HttpReferrer     : http://localhost:5329/UI/UploadFile.html
+
+HttpPathAndQuery : /HttpApi/EditUpFile/FileUpLoader.ashx?toUrl=http://localhost:5329/UI/UpLoadDone.htm&fileId=5&callBack=parent.upLoadDone
+Message          : 已添加项。字典中的关键字:“name”所添加的关键字:“name”
+StackTrace       : 在 System.Collections.Hashtable.Insert(Object key, Object nvalue, Boolean add)
+                   在 System.Collections.Hashtable.Add(Object key, Object value)
+                   在 OnlineKF.Resource.Uploader.getUploadInfo() 位置 D:\ItemCode\ItemOnlineKF\OnlineKF\OnlineKF.Resource\HttpApi\EditUpFile\Uploader.cs:行号 178
+                   在 OnlineKF.Resource.Uploader.upFile(HttpContext cxt, String pathbase, Int32 size) 位置 D:\ItemCode\ItemOnlineKF\OnlineKF\OnlineKF.Resource\HttpApi\EditUpFile\Uploader.cs:行号 90
+                   在 imageUp.ProcessRequest(HttpContext context) 位置 d:\ItemCode\ItemOnlineKF\OnlineKF\OnlineKF.Resource\HttpApi\EditUpFile\FileUpLoader.ashx:行号 32
+
+===========================================
+DateTime         : 2016-05-30 10:34:42
+HttpReferrer     : http://localhost:5329/UI/UploadFile.html
+
+HttpPathAndQuery : /HttpApi/EditUpFile/FileUpLoader.ashx?toUrl=http://localhost:5329/UI/UpLoadDone.htm&fileId=5&callBack=parent.upLoadDone
+Message          : 超过了最大请求长度。
+StackTrace       : 在 System.Web.HttpRequest.GetEntireRawContent()
+                   在 System.Web.HttpRequest.GetMultipartContent()
+                   在 System.Web.HttpRequest.FillInFilesCollection()
+                   在 System.Web.HttpRequest.FillInFilesCollection()
+                   在 System.Web.HttpRequest.EnsureFiles()
+                   在 System.Web.HttpRequest.get_Files()
+                   在 OnlineKF.Resource.Uploader.upFile(HttpContext cxt, String pathbase, Int32 size) 位置 D:\ItemCode\ItemOnlineKF\OnlineKF\OnlineKF.Resource\HttpApi\EditUpFile\Uploader.cs:行号 56
+
+===========================================
+DateTime         : 2016-05-30 10:34:42
+HttpReferrer     : http://localhost:5329/UI/UploadFile.html
+
+HttpPathAndQuery : /HttpApi/EditUpFile/FileUpLoader.ashx?toUrl=http://localhost:5329/UI/UpLoadDone.htm&fileId=5&callBack=parent.upLoadDone
+Message          : 未将对象引用设置到对象的实例。
+StackTrace       : 在 OnlineKF.Resource.Uploader.getUploadInfo() 位置 D:\ItemCode\ItemOnlineKF\OnlineKF\OnlineKF.Resource\HttpApi\EditUpFile\Uploader.cs:行号 172
+
+===========================================
+DateTime         : 2016-05-30 10:34:42
+HttpReferrer     : http://localhost:5329/UI/UploadFile.html
+
+HttpPathAndQuery : /HttpApi/EditUpFile/FileUpLoader.ashx?toUrl=http://localhost:5329/UI/UpLoadDone.htm&fileId=5&callBack=parent.upLoadDone
+Message          : 已添加项。字典中的关键字:“name”所添加的关键字:“name”
+StackTrace       : 在 System.Collections.Hashtable.Insert(Object key, Object nvalue, Boolean add)
+                   在 System.Collections.Hashtable.Add(Object key, Object value)
+                   在 OnlineKF.Resource.Uploader.getUploadInfo() 位置 D:\ItemCode\ItemOnlineKF\OnlineKF\OnlineKF.Resource\HttpApi\EditUpFile\Uploader.cs:行号 178
+                   在 OnlineKF.Resource.Uploader.upFile(HttpContext cxt, String pathbase, Int32 size) 位置 D:\ItemCode\ItemOnlineKF\OnlineKF\OnlineKF.Resource\HttpApi\EditUpFile\Uploader.cs:行号 90
+                   在 imageUp.ProcessRequest(HttpContext context) 位置 d:\ItemCode\ItemOnlineKF\OnlineKF\OnlineKF.Resource\HttpApi\EditUpFile\FileUpLoader.ashx:行号 32
+
+===========================================
+DateTime         : 2016-05-30 10:34:42
+HttpReferrer     : http://localhost:5329/UI/UploadFile.html
+
+HttpPathAndQuery : /HttpApi/EditUpFile/FileUpLoader.ashx?toUrl=http://localhost:5329/UI/UpLoadDone.htm&fileId=5&callBack=parent.upLoadDone
+Message          : 超过了最大请求长度。
+StackTrace       : 在 System.Web.HttpRequest.GetEntireRawContent()
+                   在 System.Web.HttpRequest.GetMultipartContent()
+                   在 System.Web.HttpRequest.FillInFilesCollection()
+                   在 System.Web.HttpRequest.FillInFilesCollection()
+                   在 System.Web.HttpRequest.EnsureFiles()
+                   在 System.Web.HttpRequest.get_Files()
+                   在 OnlineKF.Resource.Uploader.upFile(HttpContext cxt, String pathbase, Int32 size) 位置 D:\ItemCode\ItemOnlineKF\OnlineKF\OnlineKF.Resource\HttpApi\EditUpFile\Uploader.cs:行号 56
+
+===========================================
+DateTime         : 2016-05-30 10:34:42
+HttpReferrer     : http://localhost:5329/UI/UploadFile.html
+
+HttpPathAndQuery : /HttpApi/EditUpFile/FileUpLoader.ashx?toUrl=http://localhost:5329/UI/UpLoadDone.htm&fileId=5&callBack=parent.upLoadDone
+Message          : 未将对象引用设置到对象的实例。
+StackTrace       : 在 OnlineKF.Resource.Uploader.getUploadInfo() 位置 D:\ItemCode\ItemOnlineKF\OnlineKF\OnlineKF.Resource\HttpApi\EditUpFile\Uploader.cs:行号 172
+
+===========================================
+DateTime         : 2016-05-30 10:34:42
+HttpReferrer     : http://localhost:5329/UI/UploadFile.html
+
+HttpPathAndQuery : /HttpApi/EditUpFile/FileUpLoader.ashx?toUrl=http://localhost:5329/UI/UpLoadDone.htm&fileId=5&callBack=parent.upLoadDone
+Message          : 已添加项。字典中的关键字:“name”所添加的关键字:“name”
+StackTrace       : 在 System.Collections.Hashtable.Insert(Object key, Object nvalue, Boolean add)
+                   在 System.Collections.Hashtable.Add(Object key, Object value)
+                   在 OnlineKF.Resource.Uploader.getUploadInfo() 位置 D:\ItemCode\ItemOnlineKF\OnlineKF\OnlineKF.Resource\HttpApi\EditUpFile\Uploader.cs:行号 178
+                   在 OnlineKF.Resource.Uploader.upFile(HttpContext cxt, String pathbase, Int32 size) 位置 D:\ItemCode\ItemOnlineKF\OnlineKF\OnlineKF.Resource\HttpApi\EditUpFile\Uploader.cs:行号 90
+                   在 imageUp.ProcessRequest(HttpContext context) 位置 d:\ItemCode\ItemOnlineKF\OnlineKF\OnlineKF.Resource\HttpApi\EditUpFile\FileUpLoader.ashx:行号 32
+
+===========================================
+DateTime         : 2016-05-30 10:35:36
+HttpReferrer     : http://localhost:5329/UI/UploadFile.html
+
+HttpPathAndQuery : /HttpApi/EditUpFile/FileUpLoader.ashx?toUrl=http://localhost:5329/UI/UpLoadDone.htm&fileId=6&callBack=parent.upLoadDone
+Message          : 超过了最大请求长度。
+StackTrace       : 在 System.Web.HttpRequest.GetEntireRawContent()
+                   在 System.Web.HttpRequest.GetMultipartContent()
+                   在 System.Web.HttpRequest.FillInFilesCollection()
+                   在 System.Web.HttpRequest.FillInFilesCollection()
+                   在 System.Web.HttpRequest.EnsureFiles()
+                   在 System.Web.HttpRequest.get_Files()
+                   在 OnlineKF.Resource.Uploader.upFile(HttpContext cxt, String pathbase, Int32 size) 位置 D:\ItemCode\ItemOnlineKF\OnlineKF\OnlineKF.Resource\HttpApi\EditUpFile\Uploader.cs:行号 56
+
+===========================================
+DateTime         : 2016-05-30 10:35:36
+HttpReferrer     : http://localhost:5329/UI/UploadFile.html
+
+HttpPathAndQuery : /HttpApi/EditUpFile/FileUpLoader.ashx?toUrl=http://localhost:5329/UI/UpLoadDone.htm&fileId=6&callBack=parent.upLoadDone
+Message          : 未将对象引用设置到对象的实例。
+StackTrace       : 在 OnlineKF.Resource.Uploader.getUploadInfo() 位置 D:\ItemCode\ItemOnlineKF\OnlineKF\OnlineKF.Resource\HttpApi\EditUpFile\Uploader.cs:行号 172
+
+===========================================
+DateTime         : 2016-05-30 10:35:40
+HttpReferrer     : http://localhost:5329/UI/UploadFile.html
+
+HttpPathAndQuery : /HttpApi/EditUpFile/FileUpLoader.ashx?toUrl=http://localhost:5329/UI/UpLoadDone.htm&fileId=6&callBack=parent.upLoadDone
+Message          : 已添加项。字典中的关键字:“name”所添加的关键字:“name”
+StackTrace       : 在 System.Collections.Hashtable.Insert(Object key, Object nvalue, Boolean add)
+                   在 System.Collections.Hashtable.Add(Object key, Object value)
+                   在 OnlineKF.Resource.Uploader.getUploadInfo() 位置 D:\ItemCode\ItemOnlineKF\OnlineKF\OnlineKF.Resource\HttpApi\EditUpFile\Uploader.cs:行号 178
+                   在 OnlineKF.Resource.Uploader.upFile(HttpContext cxt, String pathbase, Int32 size) 位置 D:\ItemCode\ItemOnlineKF\OnlineKF\OnlineKF.Resource\HttpApi\EditUpFile\Uploader.cs:行号 90
+                   在 imageUp.ProcessRequest(HttpContext context) 位置 d:\ItemCode\ItemOnlineKF\OnlineKF\OnlineKF.Resource\HttpApi\EditUpFile\FileUpLoader.ashx:行号 32
+
+===========================================
+DateTime         : 2016-05-30 10:36:00
+HttpReferrer     : http://localhost:5329/UI/UploadFile.html
+
+HttpPathAndQuery : /HttpApi/EditUpFile/FileUpLoader.ashx?toUrl=http://localhost:5329/UI/UpLoadDone.htm&fileId=6&callBack=parent.upLoadDone
+Message          : 超过了最大请求长度。
+StackTrace       : 在 System.Web.HttpRequest.GetEntireRawContent()
+                   在 System.Web.HttpRequest.GetMultipartContent()
+                   在 System.Web.HttpRequest.FillInFilesCollection()
+                   在 System.Web.HttpRequest.FillInFilesCollection()
+                   在 System.Web.HttpRequest.EnsureFiles()
+                   在 System.Web.HttpRequest.get_Files()
+                   在 OnlineKF.Resource.Uploader.upFile(HttpContext cxt, String pathbase, Int32 size) 位置 D:\ItemCode\ItemOnlineKF\OnlineKF\OnlineKF.Resource\HttpApi\EditUpFile\Uploader.cs:行号 56
+
+===========================================
+DateTime         : 2016-05-30 10:36:00
+HttpReferrer     : http://localhost:5329/UI/UploadFile.html
+
+HttpPathAndQuery : /HttpApi/EditUpFile/FileUpLoader.ashx?toUrl=http://localhost:5329/UI/UpLoadDone.htm&fileId=6&callBack=parent.upLoadDone
+Message          : 未将对象引用设置到对象的实例。
+StackTrace       : 在 OnlineKF.Resource.Uploader.getUploadInfo() 位置 D:\ItemCode\ItemOnlineKF\OnlineKF\OnlineKF.Resource\HttpApi\EditUpFile\Uploader.cs:行号 172
+
+===========================================
+DateTime         : 2016-05-30 10:36:03
+HttpReferrer     : http://localhost:5329/UI/UploadFile.html
+
+HttpPathAndQuery : /HttpApi/EditUpFile/FileUpLoader.ashx?toUrl=http://localhost:5329/UI/UpLoadDone.htm&fileId=6&callBack=parent.upLoadDone
+Message          : 已添加项。字典中的关键字:“name”所添加的关键字:“name”
+StackTrace       : 在 System.Collections.Hashtable.Insert(Object key, Object nvalue, Boolean add)
+                   在 System.Collections.Hashtable.Add(Object key, Object value)
+                   在 OnlineKF.Resource.Uploader.getUploadInfo() 位置 D:\ItemCode\ItemOnlineKF\OnlineKF\OnlineKF.Resource\HttpApi\EditUpFile\Uploader.cs:行号 178
+                   在 OnlineKF.Resource.Uploader.upFile(HttpContext cxt, String pathbase, Int32 size) 位置 D:\ItemCode\ItemOnlineKF\OnlineKF\OnlineKF.Resource\HttpApi\EditUpFile\Uploader.cs:行号 90
+                   在 imageUp.ProcessRequest(HttpContext context) 位置 d:\ItemCode\ItemOnlineKF\OnlineKF\OnlineKF.Resource\HttpApi\EditUpFile\FileUpLoader.ashx:行号 32
+
+===========================================
+DateTime         : 2016-05-30 10:46:37
+HttpReferrer     : 
+
+HttpPathAndQuery : /HttpApi/EditUpFile/FileUpLoader.ashx?toUrl=http://localhost:5329/UI/UpLoadDone.htm&fileId=4&callBack=parent.upLoadDone
+Message          : 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+StackTrace       : 在 System.Collections.ArrayList.get_Item(Int32 index)
+                   在 System.Collections.Specialized.NameObjectCollectionBase.BaseGet(Int32 index)
+                   在 System.Web.HttpFileCollection.Get(Int32 index)
+                   在 System.Web.HttpFileCollection.get_Item(Int32 index)
+                   在 OnlineKF.Resource.Uploader.upFile(HttpContext cxt, String pathbase, Int32 size) 位置 D:\ItemCode\ItemOnlineKF\OnlineKF\OnlineKF.Resource\HttpApi\EditUpFile\Uploader.cs:行号 56
+
+===========================================
+DateTime         : 2016-05-30 10:46:37
+HttpReferrer     : 
+
+HttpPathAndQuery : /HttpApi/EditUpFile/FileUpLoader.ashx?toUrl=http://localhost:5329/UI/UpLoadDone.htm&fileId=4&callBack=parent.upLoadDone
+Message          : 未将对象引用设置到对象的实例。
+StackTrace       : 在 OnlineKF.Resource.Uploader.getUploadInfo() 位置 D:\ItemCode\ItemOnlineKF\OnlineKF\OnlineKF.Resource\HttpApi\EditUpFile\Uploader.cs:行号 172
+
+===========================================
+DateTime         : 2016-05-30 10:46:39
+HttpReferrer     : 
+
+HttpPathAndQuery : /HttpApi/EditUpFile/FileUpLoader.ashx?toUrl=http://localhost:5329/UI/UpLoadDone.htm&fileId=4&callBack=parent.upLoadDone
+Message          : 已添加项。字典中的关键字:“name”所添加的关键字:“name”
+StackTrace       : 在 System.Collections.Hashtable.Insert(Object key, Object nvalue, Boolean add)
+                   在 System.Collections.Hashtable.Add(Object key, Object value)
+                   在 OnlineKF.Resource.Uploader.getUploadInfo() 位置 D:\ItemCode\ItemOnlineKF\OnlineKF\OnlineKF.Resource\HttpApi\EditUpFile\Uploader.cs:行号 178
+                   在 OnlineKF.Resource.Uploader.upFile(HttpContext cxt, String pathbase, Int32 size) 位置 D:\ItemCode\ItemOnlineKF\OnlineKF\OnlineKF.Resource\HttpApi\EditUpFile\Uploader.cs:行号 90
+                   在 imageUp.ProcessRequest(HttpContext context) 位置 d:\ItemCode\ItemOnlineKF\OnlineKF\OnlineKF.Resource\HttpApi\EditUpFile\FileUpLoader.ashx:行号 32
+

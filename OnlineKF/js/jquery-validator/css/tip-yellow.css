@@ -1,0 +1,44 @@
+﻿
+
+.validator_fail
+{
+    border: 1px solid #E7552D !important;
+    box-shadow: 0 0 5px rgba(231,85,45 1);
+    -webkit-box-shadow: 0 0 5px rgba(231,85,45,1);
+    -moz-box-shadow: 0 0 5px rgba(231,85,45,1);
+    background-image: url(../image/validator_fail_icon.png);
+    background-repeat: no-repeat;
+    background-position: 96% center;
+}
+.validator_msg_arrow_right
+{
+       display: block;
+    position: absolute;
+    width: 5px;
+    height: 13px;
+    background-image: url(../image/validator_arrow_left.png);
+    top: 8px;
+    left: -5px;
+}
+.validator_msg_arrow_bottom
+{
+       display: block;
+    position: absolute;
+    width: 13px;
+    height: 5px;
+    background-image: url(../image/validator_arrow_bottom.png);
+    top: -5px;
+    left: 50%;
+}
+.validator_msg_text
+{ 
+    display: inline-block;
+    padding: 0px 10px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    color: #fff;
+    background-color: #E7552D;
+    zoom: 1;
+}
+

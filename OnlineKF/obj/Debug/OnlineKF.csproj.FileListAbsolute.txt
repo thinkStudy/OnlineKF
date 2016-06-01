@@ -1,0 +1,13 @@
+D:\ItemCode\ItemOnlineKF\OnlineKF\OnlineKF\bin\OnlineKF.dll
+D:\ItemCode\ItemOnlineKF\OnlineKF\OnlineKF\bin\OnlineKF.pdb
+D:\ItemCode\ItemOnlineKF\OnlineKF\OnlineKF\obj\Debug\OnlineKF.dll
+D:\ItemCode\ItemOnlineKF\OnlineKF\OnlineKF\obj\Debug\OnlineKF.pdb
+D:\ItemCode\ItemOnlineKF\OnlineKF\OnlineKF\obj\Debug\OnlineKF.csprojResolveAssemblyReference.cache
+D:\ItemCode\ItemOnlineKF\OnlineKF\OnlineKF\bin\OnlineKF.BLL.dll
+D:\ItemCode\ItemOnlineKF\OnlineKF\OnlineKF\bin\OnlineKF.Model.dll
+D:\ItemCode\ItemOnlineKF\OnlineKF\OnlineKF\bin\OnlineKF.Utils.dll
+D:\ItemCode\ItemOnlineKF\OnlineKF\OnlineKF\bin\OnlineKF.DAL.dll
+D:\ItemCode\ItemOnlineKF\OnlineKF\OnlineKF\bin\OnlineKF.BLL.pdb
+D:\ItemCode\ItemOnlineKF\OnlineKF\OnlineKF\bin\OnlineKF.Model.pdb
+D:\ItemCode\ItemOnlineKF\OnlineKF\OnlineKF\bin\OnlineKF.Utils.pdb
+D:\ItemCode\ItemOnlineKF\OnlineKF\OnlineKF\bin\OnlineKF.DAL.pdb

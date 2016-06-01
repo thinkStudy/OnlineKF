@@ -1,0 +1,7 @@
+D:\ItemCode\ItemOnlineKF\OnlineKF\OnlineKF.DAL\bin\Debug\OnlineKF.DAL.dll
+D:\ItemCode\ItemOnlineKF\OnlineKF\OnlineKF.DAL\bin\Debug\OnlineKF.DAL.pdb
+D:\ItemCode\ItemOnlineKF\OnlineKF\OnlineKF.DAL\obj\Debug\OnlineKF.DAL.dll
+D:\ItemCode\ItemOnlineKF\OnlineKF\OnlineKF.DAL\obj\Debug\OnlineKF.DAL.pdb
+D:\ItemCode\ItemOnlineKF\OnlineKF\OnlineKF.DAL\bin\Debug\OnlineKF.Model.dll
+D:\ItemCode\ItemOnlineKF\OnlineKF\OnlineKF.DAL\bin\Debug\OnlineKF.Model.pdb
+D:\ItemCode\ItemOnlineKF\OnlineKF\OnlineKF.DAL\obj\Debug\OnlineKF.DAL.csprojResolveAssemblyReference.cache

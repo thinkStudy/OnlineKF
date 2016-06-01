@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F1B91B81-BA79-47A1-802E-FC6F75496D0F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>OnlineKF.Utils</RootNamespace>
+    <AssemblyName>OnlineKF.Utils</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assistant.cs" />
+    <Compile Include="CacheHelper.cs" />
+    <Compile Include="CommonEnum.cs" />
+    <Compile Include="CommonHelper.cs" />
+    <Compile Include="ConfigHelper.cs" />
+    <Compile Include="ConvertHelper.cs" />
+    <Compile Include="CssMinifier.cs" />
+    <Compile Include="DataCache.cs" />
+    <Compile Include="DataTableHelper.cs" />
+    <Compile Include="DateTimeHelper.cs" />
+    <Compile Include="DirectoryUtil.cs" />
+    <Compile Include="EmailHelper.cs" />
+    <Compile Include="EnumHelper.cs" />
+    <Compile Include="FileUtil.cs" />
+    <Compile Include="HttpHelper.cs" />
+    <Compile Include="HttpProc.cs" />
+    <Compile Include="INIFile.cs" />
+    <Compile Include="Json\Converters\HtmlColorConverter.cs" />
+    <Compile Include="Json\Converters\IsoDateTimeConverter.cs" />
+    <Compile Include="Json\Converters\JavaScriptDateTimeConverter.cs" />
+    <Compile Include="Json\Converters\JsonDateTimeSerializationMode.cs" />
+    <Compile Include="Json\Converters\XmlNodeConverter.cs" />
+    <Compile Include="Json\Identifier.cs" />
+    <Compile Include="Json\JavaScriptConvert.cs" />
+    <Compile Include="Json\JsonConverter.cs" />
+    <Compile Include="Json\JsonConverterAttribute.cs" />
+    <Compile Include="Json\JsonConverterCollection.cs" />
+    <Compile Include="Json\JsonIgnoreAttribute.cs" />
+    <Compile Include="Json\JsonObjectAttribute.cs" />
+    <Compile Include="Json\JsonPropertyAttribute.cs" />
+    <Compile Include="Json\JsonReader.cs" />
+    <Compile Include="Json\JsonReaderException.cs" />
+    <Compile Include="Json\JsonSerializationException.cs" />
+    <Compile Include="Json\JsonSerializer.cs" />
+    <Compile Include="Json\JsonTextReader.cs" />
+    <Compile Include="Json\JsonTextWriter.cs" />
+    <Compile Include="Json\JsonToken.cs" />
+    <Compile Include="Json\JsonWriter.cs" />
+    <Compile Include="Json\JsonWriterException.cs" />
+    <Compile Include="Json\Linq\Extensions.cs" />
+    <Compile Include="Json\Linq\IJEnumerable.cs" />
+    <Compile Include="Json\Linq\JArray.cs" />
+    <Compile Include="Json\Linq\JConstructor.cs" />
+    <Compile Include="Json\Linq\JContainer.cs" />
+    <Compile Include="Json\Linq\JEnumerable.cs" />
+    <Compile Include="Json\Linq\JObject.cs" />
+    <Compile Include="Json\Linq\JProperty.cs" />
+    <Compile Include="Json\Linq\JsonTokenReader.cs" />
+    <Compile Include="Json\Linq\JsonTokenType.cs" />
+    <Compile Include="Json\Linq\JsonTokenWriter.cs" />
+    <Compile Include="Json\Linq\JToken.cs" />
+    <Compile Include="Json\Linq\JTokenEqualityComparer.cs" />
+    <Compile Include="Json\Linq\JValue.cs" />
+    <Compile Include="Json\MemberMapping.cs" />
+    <Compile Include="Json\MemberMappingCollection.cs" />
+    <Compile Include="Json\MemberSerialization.cs" />
+    <Compile Include="Json\MissingMemberHandling.cs" />
+    <Compile Include="Json\NullValueHandling.cs" />
+    <Compile Include="Json\ObjectCreationHandling.cs" />
+    <Compile Include="Json\ReferenceLoopHandling.cs" />
+    <Compile Include="Json\StringBuffer.cs" />
+    <Compile Include="Json\Utilities\CollectionUtils.cs" />
+    <Compile Include="Json\Utilities\ConvertUtils.cs" />
+    <Compile Include="Json\Utilities\DateTimeUtils.cs" />
+    <Compile Include="Json\Utilities\DictionaryWrapper.cs" />
+    <Compile Include="Json\Utilities\JavaScriptUtils.cs" />
+    <Compile Include="Json\Utilities\ListWrapper.cs" />
+    <Compile Include="Json\Utilities\MathUtils.cs" />
+    <Compile Include="Json\Utilities\MiscellaneousUtils.cs" />
+    <Compile Include="Json\Utilities\ReflectionUtils.cs" />
+    <Compile Include="Json\Utilities\StringUtils.cs" />
+    <Compile Include="Json\Utilities\ValidationUtils.cs" />
+    <Compile Include="LogUtils.cs" />
+    <Compile Include="MessageBox.cs" />
+    <Compile Include="NumberTools.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RMB.cs" />
+    <Compile Include="RMBUtil.cs" />
+    <Compile Include="ScriptHelper.cs" />
+    <Compile Include="SecurityHelper.cs" />
+    <Compile Include="SQLHelper.cs" />
+    <Compile Include="StringPlus.cs" />
+    <Compile Include="StringTools.cs" />
+    <Compile Include="ThreadWorker.cs" />
+    <Compile Include="TimeParser.cs" />
+    <Compile Include="TypeHelper.cs" />
+    <Compile Include="UrlOper.cs" />
+    <Compile Include="ValidateUtil.cs" />
+    <Compile Include="WebHelper.cs" />
+    <Compile Include="XssFilter.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

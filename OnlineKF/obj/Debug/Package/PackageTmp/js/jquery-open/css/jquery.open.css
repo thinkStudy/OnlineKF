@@ -1,0 +1,182 @@
+﻿.qz_dialog_layer_main {
+    background-color: #FFFFFF;
+    border: 1px solid #6B97C1;
+    position: relative;
+}
+.qz_dialog_layer_title {
+    background: url("../image/pupop_bg.png") repeat-x scroll 0 0 #8BACCF;
+    height: 28px;
+}
+.qz_dialog_layer_title h3 {
+    color: #FFFFFF;
+    float: left;
+    font-size: 13px;
+    height: 28px;
+    line-height: 28px;
+    margin: 0;
+    overflow: hidden;
+    text-indent: 8px;
+}
+.qz_dialog_layer_title .qz_dialog_btn_close {
+    background: url("../image/pupop_bg.png") no-repeat scroll 0 -30px transparent;
+    border: 0 none;
+    cursor: pointer;
+    float: right;
+    font-size: 0;
+    height: 19px;
+    line-height: 100px;
+    margin-right: 5px;
+    width: 34px;
+}
+.qz_dialog_layer_title .qz_dialog_btn_close:hover {
+    background: url("../image/pupop_bg.png") no-repeat scroll -37px -30px transparent;
+}
+.qz_dialog_layer_cont 
+{
+	margin:10px;
+    background-color: #FFFFFF;
+    color: #5F5F5F;
+     overflow-y:auto;
+     overflow-x:hidden;
+}
+.qz_dialog_layer_cont a:link, .qz_dialog_layer_cont a:visited {
+    color: #5181B4;
+    text-decoration: none;
+}
+.qz_dialog_layer_cont a:hover {
+    color: #494949;
+    text-decoration: underline;
+}
+.qz_dialog_btn_bpadding {
+    padding-bottom: 40px;
+}
+.qz_dialog_layer_ft {
+    background: none repeat scroll 0 0 #F3F3F3;
+    border-top: 1px solid #E0E0E0;
+    bottom: 0;
+    clear: both;
+    height: 34px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+.qz_dialog_layer_other {
+    float: left;
+    height: 34px;
+    line-height: 34px;
+    padding: 0 0 0 6px;
+}
+.qz_dialog_layer_op {
+    float: right;
+    padding: 6px 6px 0 0;
+    text-align: right;
+}
+.qz_dialog_layer_btn {
+    display: inline-block;
+    height: 19px;
+    margin-left: 3px;
+    padding: 1px 0 0 1px;
+}
+.qz_dialog_layer_btn span {
+    display: inline-block;
+    font-family: Arial,sans-serif;
+    font-size: 12px;
+    height: 19px;
+    line-height: 18px;
+    margin: 0;
+    overflow: hidden;
+    padding: 0 13px 0 12px;
+    text-align: center;
+}
+a.qz_dialog_layer_btn:hover {
+    text-decoration: none;
+}
+a.qz_dialog_layer_sub {
+    background: -moz-linear-gradient(center top , #ECF4FC, #D6E4F2) repeat scroll 0 0 transparent;
+    border: 1px solid #CCD4DC;
+}
+a.qz_dialog_layer_sub span {
+    background: -moz-linear-gradient(center top , #DAE9F9, #B0CBE6) repeat scroll 0 0 transparent;
+    color: #4D637F;
+}
+a.qz_dialog_layer_nor {
+    background: none repeat scroll 0 0 #FDFDFD;
+    border: 1px solid #CCD4DC;
+}
+a.qz_dialog_layer_nor span {
+    background: -moz-linear-gradient(center top , #FDFDFD, #E5E6E8) repeat scroll 0 0 transparent;
+    color: #4D637F;
+}
+a.qz_dialog_layer_sub:hover span, a.qz_dialog_layer_nor:hover span {
+    background: -moz-linear-gradient(center top , #E9F2FB, #CBDDF0) repeat scroll 0 0 transparent;
+}
+.qz_dialog_layer_disabled {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #CBCBCB;
+}
+.qz_dialog_layer_disabled span {
+    background: none repeat scroll 0 0 #F3F3F3;
+    color: #BBBBBB;
+    display: inline-block;
+}
+
+.global_tip_button {
+    background-color: #F3F3F3;
+    border-top: 1px solid #E0E0E0;
+    clear: both;
+    height: 28px;
+    padding-top: 6px;
+    text-align: right;
+    width: 100%;
+}
+.bt_tip_normal, .bt_tip_hit, .bt_tip_over, .bt_tip_forbid {
+    background-image: url("../image/pupop_bg.png");
+    background-repeat: repeat-x;
+    cursor: pointer;
+    font-size: 12px;
+    height: 22px;
+    line-height: 20px;
+    margin-right: 6px;
+    padding: 0 12px;
+}
+.bt_tip_normal {
+    background-color: #F3F4F5;
+    background-position: 0 -95px;
+    border: 1px solid #CCD4DC;
+    color: #4D637F;
+}
+.bt_tip_hit {
+    background-color: #D2E3F3;
+    background-position: 0 -51px;
+    border: 1px solid #CCD4DC;
+    color: #4D637F;
+}
+.bt_tip_normal:hover, .bt_tip_hit:hover, .bt_tip_over {
+    background-color: #E1EDFA;
+    background-position: 0 -73px;
+    border: 1px solid #CCD4DC;
+    color: #4D637F;
+}
+.bt_tip_forbid {
+    background-color: #F9F9F9;
+    background-position: 0 -117px;
+    border: 1px solid #DCDCDC;
+    color: #BBBBBB;
+    cursor: no-drop;
+}
+.hint {
+    background-color: #FFFAE2;
+    border: 1px solid #F5E190;
+    color: #646464;
+    height: auto;
+    line-height: 1.6em;
+    margin-bottom: 5px;
+    min-height: 16px;
+    padding: 4px 8px;
+    text-indent: 0;
+}	
+.qz_mask
+{
+	
+    z-index: 6000;
+}

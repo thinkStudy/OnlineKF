@@ -1,0 +1,132 @@
+﻿/* DEFAULTS
+----------------------------------------------------------*/
+
+<!-- /** load box style structure first*/
+			html,body{height:100%;width:100%;}
+			body{position:relative;background:#fff;}
+			ul,ul li{list-style:none;}
+      a,a:ACTIVE,a:VISITED,a:LINK,a:FOCUS{color:#0a8ff5;outline: none;}
+      a:active {outline: none;star:expression(this.onFocus=this.blur());}a:HOVER{text-decoration: none;}
+      /** prloader style*/
+      #track{position:absolute;z-index:-1;top:-1000px;left:0;}
+			#header{min-height:40px;max-height:56px;width:100%;z-index:2;position:relative;}      
+			#loading{position:absolute;top:50%;left:50%;width:220px;height:40px;margin:-20px -110px;z-index:99999;}
+			#loading p{height:18px;padding:0;margin:0;line-height:18px;text-align:center;font-size:12px;color:#D5D5D5;}
+			#progressbar{border:1px solid #D5D5D5;text-align:left;}
+			#progressbar .mark{background:#E2E2E2;height:20px;width:1px;}
+			/**box structure*/
+			.wrap{height:100%;width:100%;position:relative;z-index:2;overflow: hidden;text-align:left;font-size:12px;_overflow:hidden;visibility:hidden;border:none;}
+			#body_wrap{position:relative;overflow:hidden;height:100%; padding:0px 10px 50px 10px;transition: all 0.4s;-webkit-transition: all 0.4s;}
+			#left_banner{margin-left:180px;}
+			#left_banner{float:left;margin-left:-180px;width:180px;height:99.99999%;z-index:6666;position: relative;
+			   _margin-left:0px !important;_position:absolute !important;_left:0px !important;text-align: center;
+			   transition: all 0.4s;-webkit-transition: all 0.4s;}
+			#right_banner{float:left;position:absolute;right:0px;height:99.99999%;width:270px;z-index:6666;
+			   text-align: center;transition: all 0.4s;-webkit-transition: all 0.4s;}
+		  .banContent{height:100%;}
+			#content_wrap{float:left;min-width:360px;height:100%;width:100%;position:relative;z-index:8888;}
+			.switchers{width:14px;height:400px;position:absolute;top:0px;z-index:99999;cursor:pointer;}
+			/** input action bar*/
+			#entry-bar{height:170px;width:100%;position:absolute;z-index:9999;bottom:0;}
+			#entry-bar .menubar{height:32px;line-height:10px;position:relative;z-index:66667;}
+			.hidLeft #left_banner{width:0px;_display:none;}
+			.hidRight #right_banner{width:0px;_display:none;}
+			.hidRight{padding-right:0px !important;}
+			#toolsbar{position:relative;height:20px;top:7px;z-index:66668;margin-left:20px;_margin-left:10px;counter-reset:nth;}
+			#toolsbar li{height:20px;width:21px;float:left;background-repeat:no-repeat;list-style:none;
+			   margin-right:20px;cursor:pointer;text-align:left;}
+			#toolsbar li:after{counter-increment:nth;content:"";}
+			#entry-bar .inputbox{height:102px;padding: 0 2px;position:relative;z-index:5;_margin-left:1px;
+			   border-style:solid;border-width:1px;background-color:white;}
+      #entry-bar .inputbox .fix{height:102px;}
+      .fix textarea{width:100%;height:102px;border:none;background:transparent;padding:0;margin:0;overflow:auto;resize:none;}
+      .actionbar{_overflow:hidden;width:100%;height:32px;position:relative;line-height:32px;bottom:0px;
+         font-family:"\5FAE\8F6F\96C5\9ED1","Microsoft YaHei","\5B8B\4F53",Arial,Helvetica,sans-serif,Tahoma;}
+      #exitChat{right:78px;z-index:20;text-align:center;padding:0;}
+      .enter{right:2px;z-index:20;}
+      #enter{display:block;height:25px;padding-right:12px;position:relative;z-index:6665;text-align: center;}
+      #exitChat,.enter{height:24px;width:62px;line-height:23px;top:4px;position:absolute;cursor:pointer;
+        border-style: solid;border-width: 1px;}
+      #shortKeyMenu .hover,#languageList .hover{background:#0a8ff5;color:#e3f0fb}
+			/*commom*/
+			.themecolor,.themefont{color:#0a8ff5;border-color:#0a8ff5}
+			.themeborder{border-color:#d1d1d1;}
+			.themes{background-color:#0a8ff5;}
+			.backdrop{width:100%;height:100%;position:absolute;top:0;left:0;margin:0;padding:0;background-color:#0a8ff5;opacity:0;filter:alpha(opacity=0)}
+			.hiLight{background-color:#0a8ff5;}			
+		-->
+		
+		/****************** 提示窗口所需样式 *********************/
+#notice_tip.err
+{
+    display: block;
+    background-color: #dd1d1d;
+}
+
+#notice_tip.warning
+{
+    display: block;
+    background-color: #FFAB36;
+}
+
+#notice_tip
+{
+    position: fixed;
+    top: -1000px;
+    z-index: 10000;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px 10px 10px 40px;
+    max-width: 980px;
+    min-width: 550px;
+    width: 550px;
+    overflow: hidden;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: #36B754;
+    font-weight: 700;
+}
+
+#notice_tip.err #notice_icon
+{
+    background-position: -34px 0;
+    width: 16px;
+    height: 15px;
+}
+#notice_tip.warning #notice_icon
+{
+    background-position: -18px 0;
+    width: 16px;
+    height: 15px;
+}
+#notice_icon
+{
+    display: block;
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    margin-top: -8px;
+    background-image: url(/images/notice.png);
+}
+
+#notice_close
+{
+    background: url(/images/notice.png) -50px 0 no-repeat;
+    display: block;
+    width: 12px;
+    height: 12px;
+    float: right;
+    margin-top: 4px;
+    margin-left: 10px;
+}
+#notice_close:hover
+{
+    background-position: -62px 0;
+}
+
+/****************** END 提示窗口所需样式 *********************/
+
+.show{ display: block;}
+.hide{ display:none;}

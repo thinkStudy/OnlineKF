@@ -1,0 +1,120 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0055)http://test.live800.com/test1/chatClient/uploadFile.htm -->
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>UploadFile</title>
+    <style type="text/css">
+        *
+        {
+            font-size: 12px;
+            font-weight: normal;
+            font-family: "\5FAE\8F6F\96C5\9ED1" , "Microsoft YaHei" , "\5B8B\4F53" ,Arial,Helvetica,sans-serif,Tahoma;
+        }
+        body, form, td
+        {
+            border: none;
+            margin: 0;
+            padding: 0;
+            background: white;
+        }
+        input.text
+        {
+            border: 1px solid #70B4E0;
+            background-color: #D4EEFF;
+            color: #007AC8;
+            font-size: 12px;
+        }
+        input.btn
+        {
+            margin: 0;
+            padding: 0 2px;
+            height: 18px;
+            border: 1px solid #70B4E0;
+            font-size: 10px;
+        }
+    </style>
+    <script type="text/JavaScript">
+        function getObj(objId) {
+            if (document.getElementById)
+                return document.getElementById(objId);
+            else if (document.all)
+                return document.all(objId);
+        }
+        function CheckUpload() {
+            if (document.uploadFileForm.myFile.value.length < 1) {
+                alert("请选择要传送的文件");
+                document.uploadFileForm.myFile.focus();
+                return false;
+            } else {
+
+                var actionUrl = parent.globalCommonChatHandle.uploadFileOnSubmit(document.uploadFileForm.myFile.value);
+                var toUrl = "http://" + window.location.hostname + (window.location.port ? ":" + window.location.port : "") + "/UI/UpLoadDone.htm";
+                var paramsLeft = actionUrl.toLowerCase().indexOf("?")==-1?"?":"&";
+                //actionUrl += paramsLeft+"toUrl="+toUrl+"&fileId="+parent.globalCommonChatHandle.fileId+"&callBack=parent.upLoadDone";
+                
+                getObj('uploadFileForm').action = actionUrl;
+                getObj("fileId").value = parent.globalCommonChatHandle.fileId;
+                getObj("callBack").value = "parent.upLoadDone";
+                getObj("toUrl").value = toUrl
+
+                parent.globalCommonChatHandle.showUploadFileEnd();
+                return true;
+            }
+
+        }
+
+        function upLoadDone(savePath, state, imgInfo ,name, fileId) {
+
+            parent.globalCommonChatHandle.uploadFileDone(savePath, state, imgInfo, name, fileId);
+            
+        }
+
+        function CheckFile() {
+            try {
+                var fso, f, s;
+                var FilePath = document.uploadFileForm.myFile.value;
+                fso = new ActiveXObject("Scripting.FileSystemObject");
+                if (fso.FileExists(FilePath)) {
+                    f = fso.GetFile(FilePath);
+                    s = f.size;
+                    if (s > 1024 * 1024 * 4) {
+                        alert("文件的大小不能超过4M");
+                        return false;
+                    }
+                } else {
+                    alert("文件不存在");
+                    return false;
+                }
+            } catch (e) {
+                alert(e);
+                return false;
+            }
+            return true;
+        }
+		</script>
+</head>
+<body>
+    <table border="0" cellspacing="0" cellpadding="0">
+        <tbody>
+            <tr>
+                <td width="50">
+                    <iframe style="display: none" name="ifm"></iframe>
+                </td>
+                <td width="574" align="left">
+                    <form target="ifm" name="uploadFileForm" id="uploadFileForm" method="post" action=""
+                    enctype="multipart/form-data">
+                    <input name="callBack" id="callBack" type="hidden" value="parent.upLoadDone">
+                     <input name="fileId" id="fileId" type="hidden" value="">
+                    <input name="toUrl" id="toUrl" type="hidden" value="">
+                    <input name="myFile" id="myFile" type="file" size="22" class="text" onkeydown="return false;">
+                    <input type="submit" name="Button1" value="传送" id="Button1" class="btn" onclick="javascript:return CheckUpload();">
+                    <input name="Submit2" type="button" class="btn" onclick="parent.globalCommonChatHandle.hideUploadFileForm();"
+                        value="关闭">
+                    </form>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

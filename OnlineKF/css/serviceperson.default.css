@@ -1,0 +1,64 @@
+﻿
+body
+{
+    padding:20px;
+    height: 100%;    
+}
+.menu_list {
+    width: 15%;
+    float: left;
+    height: 92%;
+    overflow-x:hidden;
+    overflow-y:auto;
+}
+
+.con{ width:1100px; margin:0 auto;}
+.con-l{ border:1px solid #b7b7b7; background:#f2f2f2; padding-bottom:50px;}
+.con-c{ visibility: visible;width: 45%;height: 94%;float: left;}
+.con-r{ border:1px solid #b7b7b7; background:#fff; padding-bottom:50px; width: 15%;float: left;height: 92%;}
+
+
+
+.menu_list ul{ margin-left:0; padding:0}
+.menu_list ul li{ list-style:none; height:39px; border-bottom:1px solid #e9e9e9; margin-left:0px;}
+.menu_list ul li p{ line-height:39px; font-size:14px; padding-left:15px;float: left;}
+.menu_list ul li p a{ color:#585858;}
+
+.current{ background:#fff; }
+.current p a{ color:#d8271c;}
+
+.questionName{ cursor:pointer; }
+
+.onlycount{ color:Red;}
+
+#nameBox{    color: white;
+    display: inline-block;
+    padding-top: 5px;
+    _zoom: 1;
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+.addAgileMsg
+{
+   margin: 10px 10px 0px 5px;
+   width:90%;
+   height:40px;    
+}
+
+.agile_close {
+ 
+    width: 22px;
+    height: 22px;
+    line-height: 19px;
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 5px;
+    display:none;
+    top: 10px;
+    float: right;
+    
+}

@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineKF", "OnlineKF\OnlineKF.csproj", "{DFA43FEB-29E6-420E-A43C-AA7CF0D94C2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineKF.DAL", "OnlineKF.DAL\OnlineKF.DAL.csproj", "{3D9779A2-01EC-41EF-B3E6-DB093598325E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineKF.Model", "OnlineKF.Model\OnlineKF.Model.csproj", "{B7121BD6-C244-4CE0-9EAC-82C06BDBB4CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineKF.BLL", "OnlineKF.BLL\OnlineKF.BLL.csproj", "{F5289BAC-6970-4D3B-8321-461D03D3D2A9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Doucment", "Doucment", "{B5E55B10-920D-434C-83E8-8C704FE23A28}"
+	ProjectSection(SolutionItems) = preProject
+		Document\在线咨询系统 .png = Document\在线咨询系统 .png
+		Document\数据字典OnlineKF.CHM = Document\数据字典OnlineKF.CHM
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineKF.Resource", "OnlineKF.Resource\OnlineKF.Resource.csproj", "{30DAD584-42C8-4920-886C-C2DCAC4D312F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineKF.Utils", "OnlineKF.Utils\OnlineKF.Utils.csproj", "{F1B91B81-BA79-47A1-802E-FC6F75496D0F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OnlineKF.DataBase", "OnlineKF.DataBase", "{6134F976-1DD0-4FAD-9225-60EE8AF12366}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DFA43FEB-29E6-420E-A43C-AA7CF0D94C2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFA43FEB-29E6-420E-A43C-AA7CF0D94C2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFA43FEB-29E6-420E-A43C-AA7CF0D94C2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFA43FEB-29E6-420E-A43C-AA7CF0D94C2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D9779A2-01EC-41EF-B3E6-DB093598325E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D9779A2-01EC-41EF-B3E6-DB093598325E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D9779A2-01EC-41EF-B3E6-DB093598325E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D9779A2-01EC-41EF-B3E6-DB093598325E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7121BD6-C244-4CE0-9EAC-82C06BDBB4CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7121BD6-C244-4CE0-9EAC-82C06BDBB4CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7121BD6-C244-4CE0-9EAC-82C06BDBB4CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7121BD6-C244-4CE0-9EAC-82C06BDBB4CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5289BAC-6970-4D3B-8321-461D03D3D2A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5289BAC-6970-4D3B-8321-461D03D3D2A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5289BAC-6970-4D3B-8321-461D03D3D2A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5289BAC-6970-4D3B-8321-461D03D3D2A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30DAD584-42C8-4920-886C-C2DCAC4D312F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30DAD584-42C8-4920-886C-C2DCAC4D312F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30DAD584-42C8-4920-886C-C2DCAC4D312F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30DAD584-42C8-4920-886C-C2DCAC4D312F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1B91B81-BA79-47A1-802E-FC6F75496D0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1B91B81-BA79-47A1-802E-FC6F75496D0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1B91B81-BA79-47A1-802E-FC6F75496D0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1B91B81-BA79-47A1-802E-FC6F75496D0F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

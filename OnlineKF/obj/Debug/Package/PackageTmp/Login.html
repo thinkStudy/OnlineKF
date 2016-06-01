@@ -1,0 +1,74 @@
+﻿
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head >
+    <title>在线咨询系统-登录</title>
+    <link href="css/amazeui.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/login.css" rel="stylesheet" type="text/css" />
+    <script src="js/jquery-1.9.1.min.js" type="text/javascript"></script>
+    <script>
+        $(function () {
+            $(".maincon").bind("keydown", function (e) {
+                // 兼容FF和IE和Opera    
+                var theEvent = e || window.event;
+                var code = theEvent.keyCode || theEvent.which || theEvent.charCode;
+                if (code == 13) {
+                    //回车执行查询
+                    postLogin();
+                }
+            });
+        });
+        function postLogin() {
+            var loginName = document.getElementById("account").value;
+            var loginPwd = document.getElementById("password").value;
+            if (loginName != "" && loginPwd != "") {
+                $.post("/req.ashx?act=LoginAjax.loginOnlineKF", { loginName: loginName, loginPwd: loginPwd }, function (result) {
+                    if (result.status == 200) {
+                        //location.href = "/UI/ServeicePerson.aspx";
+                    } else {
+                        document.getElementById("result").innerHTML = result.msg;
+                    }
+                });
+            } else {
+                document.getElementById("result").innerHTML = "请输入用户名和密码！";
+            }
+        }
+    </script>
+</head>
+<body>
+        <div class="maincon">
+            <div class="inputp">
+                <h1>
+                    在线咨询系统</h1>
+                <ul class="inparea">
+                    <div class="am-input-group am-input-group-primary">
+                        <span class="am-input-group-label"><i class=" am-icon-fw"></i></span>
+                        <input id="account" type="text" size="30" maxlength="50" check="Require" warning="用户名"
+                            placeholder="用户名" class="am-form-field" required="">
+                    </div>
+                    <div class="am-input-group am-input-group-primary">
+                        <span class="am-input-group-label"><i class=" am-icon-fw"></i></span>
+                        <input id="password" type="password" size="30" maxlength="50" check="Require" warning="密码"
+                            placeholder="密码" class="am-form-field" required="">
+                    </div>
+                    <input style="display: inline; float: left; margin-right: 15px;" type="button" class="sumbt"
+                        value="登陆" onclick="postLogin()" onmouseover="this.className=&#39;sumbt2&#39;;"
+                        onmouseout="this.className=&#39;sumbt&#39;;">
+                   
+                    <li>
+                        <span class=" intx" id="result" style="margin-left: 40px; color: red"></span>
+                     </li>
+                  
+                </ul>
+            </div>
+            <div class="clearb">
+            </div>
+        </div>
+        <div class="footlogo">
+            <p>
+                Copyright © 2016 All Rights Reserved.</p>
+        </div>
+</body>
+</html>

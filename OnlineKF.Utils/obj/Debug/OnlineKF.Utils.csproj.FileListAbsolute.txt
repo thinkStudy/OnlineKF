@@ -1,0 +1,4 @@
+D:\ItemCode\ItemOnlineKF\OnlineKF\OnlineKF.Utils\bin\Debug\OnlineKF.Utils.dll
+D:\ItemCode\ItemOnlineKF\OnlineKF\OnlineKF.Utils\bin\Debug\OnlineKF.Utils.pdb
+D:\ItemCode\ItemOnlineKF\OnlineKF\OnlineKF.Utils\obj\Debug\OnlineKF.Utils.dll
+D:\ItemCode\ItemOnlineKF\OnlineKF\OnlineKF.Utils\obj\Debug\OnlineKF.Utils.pdb

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="D:\publicItem\ImgResoceWbe" deleteExistingFiles="True" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="配置文件1" publishMethod="FileSystem" replaceMatchingFiles="False" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="bin/OnlineKF.Resource.pdb" publishTime="05/28/2016 17:56:51" />
+    <file relUrl="HttpApi/EditUpFile/FileUpLoader.ashx" publishTime="05/28/2016 17:50:24" />
+    <file relUrl="Web.config" publishTime="05/28/2016 17:58:33" />
+    <file relUrl="bin/OnlineKF.Utils.pdb" publishTime="05/28/2016 17:29:32" />
+    <file relUrl="bin/OnlineKF.Utils.dll" publishTime="05/28/2016 17:29:32" />
+    <file relUrl="bin/OnlineKF.Resource.dll" publishTime="05/28/2016 17:56:51" />
+    <file relUrl="Global.asax" publishTime="05/28/2016 17:53:54" />
+  </publishProfile>
+</publishData>
